@@ -8,8 +8,8 @@ services:
   snippetbox:
     image: pawelmalak/snippet-box
     container_name: ${COMPOSE_PROJECT_NAME}_snippetbox
-    ports:
-      - '${SNIPPETBOX_HTTP_PORT:-9997}:5000'
+#    ports:
+#      - '${SNIPPETBOX_HTTP_PORT:-9997}:5000'
     volumes:
       - './data:/app/data'
     networks:

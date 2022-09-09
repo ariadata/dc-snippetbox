@@ -29,7 +29,7 @@ docker-compose up -d
 > 
 > Name or IP : `snippetbox`
 > 
-> Port : `SNIPPETBOX_HTTP_PORT` in .env
+> Port : `5000`
 >
 > Config SSL Part
 
